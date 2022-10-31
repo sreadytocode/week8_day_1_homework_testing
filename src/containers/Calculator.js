@@ -96,7 +96,6 @@ function App() {
     let  calculatedNumber = parseFloat(previousTotal) / parseFloat(number);
       if (calculatedNumber === Infinity || calculatedNumber === "" || isNaN(calculatedNumber)) {
         setRunningTotal("Error can't divide by zero.");
-        setCalculatedTotal("Error can't divide by zero.")
     } else {
       setRunningTotal(calculatedNumber);
       setCalculatedTotal(calculatedNumber);
